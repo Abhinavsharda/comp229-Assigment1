@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="stite2.master.cs" Inherits="Assigment_1.stite2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <title>
+        Sharda's
+    </title>
+<link rel ="icon" href ="Assets/Icon.ico" type ="image/icon">
+
+     <!-- CSS Section -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/app.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+       
+</head>
+   <body>
+    <div class="maincontent">
+        
+    <div class="nav">
+                          <img src="Assets\logo.png">
+      <ul>
+
+                            <li id="home" runat="server"><a href="Default.aspx"> Home</a></li>
+                            <li id="products" runat="server"><a href="projects.aspx"> Projects</a></li>
+                            <li id="services" runat="server"><a href="Services.aspx"> Services</a></li>
+                            <li id="about" runat="server"><a href="About.aspx"> About Me</a></li>
+                            <li style="float:right" id="contact" runat="server"><a href="Contact.aspx"> Contact</a></li>
+
+      </ul>
+          </div>
+    
+   
+        
+       
+     
+   
+    <form id="form1" runat="server">
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div class="nav">
+      <ul>
+                            <li><a href="https://www.facebook.com/abhinav.sharda.75"><img src="Assets/f.png" /></a></li>
+                            <li style="float:right"><a href="https://github.com/Abhinavsharda"> </a><img src="Assets/t.png" /></li>
+
+      </ul>
+          </div>
+   
+    </form>
+  </div>
+</body>
+</html>
