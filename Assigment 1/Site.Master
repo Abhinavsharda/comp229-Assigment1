@@ -29,7 +29,7 @@
                             <li id="products" runat="server"><a href="projects.aspx"> Projects</a></li>
                             <li id="services" runat="server"><a href="Services.aspx"> Services</a></li>
                             <li id="about" runat="server"><a href="About.aspx"> About me</a></li>
-                            <li style="float:right" id="contact" runat="server"><a href="Contact.aspx"> Contact</a></li>
+                            <li style="float:right" id="contact" runat="server"><a href="Contact.aspx">  Contact</a></li>
 
       </ul>
           </div>
